@@ -1,0 +1,41 @@
+Assalamu Alaikum to the respected reader
+
+In this project I was able to change a 24bit image into 8bit image. This is done in Convert-To-8bit-GreyScale_image.py and also in a function in main.py [makeImgTo8BitGreyScale()]
+
+In main.py I have made 4 functions for the filters and other functions
+
+1) use7x7LowPassFilter() - > converts the input img in the format of Ideal Low Pass Filter by a 7x7 kernel
+2) use7x7GaussianHighPassFilter() -> converts the input img in the format of Gaussian High Pass Filter by a 7x7 kernel
+3) useKMeansClustering() -> converts the input img in the format of K Means Clustering
+4) useErosion() -> converts the input img in the format of erosion
+
+In all these 4 above mentioned functions there are 2 parameters where we set the image directory and the output image name
+
+We have worked with png format and the size is 256 x 256
+
+
+-----------------------------
+
+First of all I have taken a picture form the intenet like parrots.png
+
+Then using Convert-To-8bit-GreyScale_image.py we make this image into a 8bit greyscale image and that is named as Input-Parrot-Greyscale-8bit-Image.png
+
+Now in the main.py code we transform the input image into the desired 4 formats
+
+###
+But one interesting thing I have seen is that after the conversion in those 4 formats the size is the same as 256 x 256 even the greyscale remains the same but the depth of the image or the bit goes to 24. 
+
+###
+So to make the result images also into 8bit I have a function makeImgTo8BitGreyScale() and this also makes the outputs into 8bit images
+
+###
+In the main root directory [where main.py resides] all the output images are in 24bit but in the Outputs-Images-In-8bit-GreyScale folder all the result images are in 8bit format
+
+
+-----------------------------
+
+I hope you have a good day. This is Shad Reza.
+
+
+
+FIAMANILLAH
